@@ -97,7 +97,7 @@ def main():
      
     try:
         r = praw.Reddit("A Sarcastic Bot that determines a user's writing level "
-                "by u/DontKillTheMedic, v 1.0.")
+                "by Pat Stocklin, v 1.0.")
         r.login('WritingLevelBot', password)
     except:
         print "Bad Login (System Exiting)"
@@ -115,7 +115,6 @@ def main():
             parentID = ""
             for comment in thread:
                 if isinstance(comment, praw.objects.MoreComments):
-                    print "Instance of MoreComments"
                     for comm in comment.comments():
                         thread.append(comm)
                 else:
