@@ -14,3 +14,5 @@ PRAW will be modifying their authentication protocol for user accounts as of 08/
 WiLBuR has accrued sufficient comment-karma so that it may exceed the initial comment Rate-Limit. An exception is thrown to sleep for 10 minutes otherwise.
 
 Command to Run: python WiLBuR.py [password]. If a password is not given, PRAW will prompt the user with one.
+
+Feel free to contact me with concerns/suggestions/questions
